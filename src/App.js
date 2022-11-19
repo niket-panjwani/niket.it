@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Niket.it is coming soon!
+          Welcome to niket.it!
         </p>
       </header>
     </div>
