@@ -1,14 +1,22 @@
-import logo from './logo.svg';
+import Typed from 'react-typed';
 import './App.css';
+import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
+
   return (
     <div className="App">
+      <ParticlesBackground/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to niket.it!
-        </p>
+        <Typed
+          strings={[
+            "Hi!",
+            "I'm Niket Panjwani...",
+            "I'm a Full Stack Developer"
+          ]}
+          typeSpeed={100}
+          backSpeed={50}
+          loop />
       </header>
     </div>
   );
