@@ -1,4 +1,4 @@
-import Typed from 'react-typed';
+//import Typed from 'react-typed';
 import './App.css';
 import ParticlesBackground from './components/ParticlesBackground';
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <ParticlesBackground/>
       <header className="App-header">
-        <Typed
+        {/* <Typed
           strings={[
             "Hi!",
             "I'm Niket Panjwani...",
@@ -16,7 +16,7 @@ function App() {
           ]}
           typeSpeed={100}
           backSpeed={50}
-          loop />
+          loop /> */}
       </header>
     </div>
   );
