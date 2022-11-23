@@ -5,14 +5,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <Typewriter
-            options={{
-              strings: ["Hi!", "I'm Niket Panjwani!", "I'm a Full Stack Developer ..."],
-              autoStart: true,
-              loop: true,
-              pauseFor: 1000
-            }}
-          />
+        <Typewriter
+          options={{
+            strings: ["Hi!", "I'm Niket Panjwani!", "I'm a Full Stack Developer ..."],
+            autoStart: true,
+            loop: true,
+            pauseFor: 1000
+          }}
+        />
       </header>
     </div>
   );
