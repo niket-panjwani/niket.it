@@ -16,7 +16,7 @@ function LandingPage() {
                 />
             </header>
         </>
-    )
+    );
 }
 
 export default LandingPage;
